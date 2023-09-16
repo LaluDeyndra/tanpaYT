@@ -1,0 +1,113 @@
+body {
+  background: url(https://i.pinimg.com/originals/09/c7/58/09c7589a2ea12c074e05f7ff9d2c4dc7.jpg);
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(50px);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: RoadTest;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+  background-color: crimson;
+  padding: 10px;
+}
+
+.text-container p:nth-child(1) {
+  font-family: calibri;
+  font-weight: bold;
+  color: bisque;
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-family: calibri;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  font-size: 60px;
+}
+
+.text-container p:nth-child(3) {
+  font-family: myriad pro regular;
+  color: whitesmoke;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.text-container p:nth-child(4) {
+  font-family: calibri;
+  color: wheat;
+  font-size: 17px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.text-container p:nth-child(5) {
+  font-family: arial;
+  color: wheat;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.text-container p {
+  line-height: 0px;
+  margin: 55px 0px 25px;
+}
+
+.text-container {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  font-size: larger;
+  text-transform: capitalize;
+  color: white;
+}
